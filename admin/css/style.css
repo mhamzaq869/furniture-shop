@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.list-group{
+    margin-left:-10px;
+}
+.col-md-10 > h1{
+  font-size:120px;
+}
+#fonts{
+  font-size:20px;
+}
+
+#border-less{
+  border: none;
+ }

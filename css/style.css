@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family:'Raleway', sans-serif;
+}
+/* Custom effects,design,hover and color classes*/
+#border-less{
+ border: none;
+}
+#alert{
+    padding:8px;
+}
+.alert button{
+    padding: 7.5px;
+}
+
+/*end */
+
+.navbar-light, .wave-effect{
+    box-shadow:0 10px 20px 0 rgba(0,0,0,.05);
+}
+.nav-link{
+    color:black;
+}
+.navbar-nav .top-icon{
+    font-size: 15px;
+    margin-bottom:1px;
+    background-color:#efefef;
+    border: 1px solid #e8e8e8;
+    color: black;
+    padding: 6px;
+    border-radius: 35px;
+}
+
+.header-nav li{
+    display: inline-block;
+    list-style: none;
+    font-weight: bold;
+    margin-left:20px;
+}
+
+a{
+  text-decoration-color: none;
+}
+.navbar-nav button{
+    border-radius: 20px;
+    border:none;
+}
+.row .col-md-3 .list-group:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row .col-md-3 .list-group-item:hover{
+    background-color: #007bff;
+    color:white;
+}
+.hover-effect-image:hover{
+     transform: scale(1.1);
+}
+
+.form{
+    border:1px solid #e8e8e8;
+}
+.hover-effect:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form .form-group label{
+  font-weight: bold;    
+}
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1280px){
+    .carousel-inner{
+        max-height: 550px;
+    }
+    .carousel-caption{
+        margin-bottom: 320px;
+    }
+}
+
+@media (min-width:1280px) and (max-width:1960px){
+    .carousel-inner{
+        max-height: 630px;
+    }
+    
+    .carousel-caption{
+        margin-bottom: 578px;
+    }
+}
+/*Main HomePage*/
+.back-gray{
+    background-color: #f2f2ff;
+}
+
+/* end Homepage*/
+
+
+/* Sigin Form*/
+
+.sign-in-up{
+ margin-top:130px;
+ margin-bottom: 80px;
+ font-family:'Raleway', sans-serif;
+}
+
+/*Contact us*/
+
+
+/* product detail*/
+
+.table-borderless>thead>tr>th,
+.table-borderless>thead>tr>td,
+.table-borderless>tbody>tr>th,
+.table-borderless>tbody>tr>td,
+.table-borderless>tfoot>tr>th,
+.table-borderless>tfoot>tr>td {
+    border: none;
+}
+
+
